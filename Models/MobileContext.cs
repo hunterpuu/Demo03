@@ -23,7 +23,7 @@ namespace Demo03.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=Mobile;User Id=sa;Password=password@1;");
+                optionsBuilder.UseSqlServer("Server=127.0.0.1;Database=Mobile;User Id=sa;Password=password@1;");
             }
         }
 
